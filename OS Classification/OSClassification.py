@@ -15,7 +15,7 @@ for IP in IPlist:
     TTLend = output.find("Ping statistics")
     IPstart = output.find("Pinging")
     IPend = output.find(" with 32")
-    hostAlive=ping.returncode
+    hostAlive = ping.returncode
     if hostAlive == 0:  # only list IPs that are up
         TTL = int(''.join(filter(str.isdigit, output[TTLstart:TTLend]))) # get TTL value
         if 98 <= TTL <= 158:
