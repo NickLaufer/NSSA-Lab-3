@@ -16,4 +16,4 @@ OSClassification is a Python script that, through a given text file containing a
 
 ## *PortScanning:*
 
-PortScanning is a Bash script that tests if given ports are accepting TCP connections. Given a start and end IP address and start and end port number, the script iteratively tests connections to ports.
+PortScanning is a Bash script that tests if given ports are accepting TCP connections. Given a start and end IP address and start and end port number, the script iteratively tests connections to ports. User prompts gather the inputs, no file input necessary.
